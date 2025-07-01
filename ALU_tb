@@ -1,0 +1,47 @@
+`timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date: 07/01/2025 12:37:51 PM
+// Design Name: 
+// Module Name: ALU_tb
+// Project Name: 
+// Target Devices: 
+// Tool Versions: 
+// Description: 
+// 
+// Dependencies: 
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+//////////////////////////////////////////////////////////////////////////////////
+
+
+module ALU_tb(  );
+
+reg a, b;
+wire  sum, difference;
+wire  not_a, not_b, and_out, or_out;
+
+ALU uut (
+    .a(a), .b(b),
+    .sum(sum),
+    .difference(difference),
+    .not_a(not_a),
+    .not_b(not_b),
+    .and_out(and_out),
+    .or_out(or_out)
+);
+
+initial begin
+
+    a = 0; b =0;
+#10 a = 0; b =1;
+#10 a =1; b =0;
+#10 a=1;b=1;
+#10; $finish;
+end
+endmodule
