@@ -12,9 +12,9 @@ DURATION:8 WEEKS
 
 MENTOR:NEELA SANTHOSH KUMAR
 
-Verilog Logic and Arithmetic Operations — Vivado Project
+#Verilog Logic and Arithmetic Operations — Vivado Project
 
-Description
+#Description
 
 This project implements basic bitwise logic gates and arithmetic operations using Verilog HDL. The following operations are supported:
 
@@ -31,7 +31,7 @@ This project implements basic bitwise logic gates and arithmetic operations usin
 
 The design is written in Verilog and simulated using Xilinx Vivado.
 
- Tools and Technologies Used
+ #Tools and Technologies Used
 
 Vivado	2020.2 or later	Design entry, simulation
 Verilog HDL	IEEE 1364-2005	Hardware description language
@@ -53,7 +53,7 @@ Simulation output can be observed using Vivado's Behavioral Simulation.
 
 
 
-Sample Test Inputs
+#Sample Test Inputs
 
 0 0 and 0 1 and 1 0 and 1 1
 
@@ -72,6 +72,10 @@ How to Use
 
 
 5. Observe results in the Simulation waveform or Console output
+
+   #OUTPUT
+
+   ![Image](https://github.com/user-attachments/assets/037d682e-679c-4e27-a742-fde4bd0bd0a2)
 
 
 
